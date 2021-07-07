@@ -1,59 +1,31 @@
----
-title: "Retesting"
-path: "/hackers/retesting.html"
-id: "hackers/retesting"
----
-
-As programs receive vulnerability reports and work on deploying fixes, they need proof that their vulnerabilities have actually been fixed. Retesting enables programs to ask hackers to verify whether a vulnerability has been fixed in order to secure the protection of their data. If you submit a valid vulnerability report, programs can elect to invite you to retest the vulnerability to verify the fixes.
-
-Upon successful completion of a retest, you’ll receive a bounty as well as +2 reputation.
-
-### How it Works
-
-If you’ve submitted a valid vulnerability for a report, the program can request to have you retest the vulnerability to make sure it’s been fixed.
-
-If you’re invited to retest the vulnerability, you’ll receive a notification in your email to retest the report.
-
-![retest hacker invitation email](./images/retest-invitation-email.png)
-
-To participate in the retest:
-
-1. Click **View retest** in your notification email.
-2. Check to see that the vulnerability has been fixed.
-3. Submit your findings in the **Retest findings** form at the bottom of the report. The form consists of these fields:
-     * Are you able to reproduce the vulnerability report?
-     * Please provide us with a short summary of how you retested the vulnerability and upload any attachments of your validations.
-
-![retest form](./images/retest-findings-form.png)
-
-4. Click **Submit**.
-
-The program can either approve or reject your results. If they choose to:
-
-Action | Scenario | Details
------- | -------- | -------
-**Approve and resolve** the retest | You say the vulnerability is fixed. | You’ll be awarded a bounty. <br><br>The report will close and will be marked as *Resolved*.
-**Reject** the retest | You say the vulnerability is fixed. | The program will provide you with a summary explaining why they’ve rejected the retest. They can choose to request another retest for the vulnerability. <br><br>The status of the report will be changed to *Triaged*.
-**Approve** the retest | You say the vulnerability is not fixed. | You’ll be awarded a bounty. <br><br>The report will move back to *Triaged* and will stay open for the program to implement a fix.
-**Reject** the retest | You say the vulnerability is not fixed. | The program will provide you with a summary explaining why they’ve rejected the retest. The program can choose to request another retest for the report. <br><br>The status of the report will be changed to *Triaged*.
-
-### Claiming Retest Opportunities
-If you’re not the original hacker, and the original hacker of the report chooses to reject the retest, you and other hackers can claim the retesting opportunities depending on your retesting rights.
-
-If the program is:
-
-Program Type | Details
------------- | --------
-Private | If you’re part of the private program offering retests, you can find and claim the retesting opportunities under **Hacker Dashboard > Retesting**.
-Public | You’ll be able to claim retests for programs where you submitted at least 1 valid vulnerability (the report is resolved or triaged) under **Hacker Dashboard > Retesting**.
-
-To claim a retest:
-1. Go to **Hacker Dashboard > Retesting**.
-2. Click **Claim retest** for the retest you’re interested in. Keep in mind that you can only claim and work on 1 retest at a time. Upon claiming a retest, you’ll have 24 hours to complete the retest.
-3. View steps 3 and 4 in the section above to complete the retest.
-
-### Managing and Viewing Retests
-You can keep track of all of your retesting work under Hacker Dashboard > Retesting. You’ll be able to:
-* Claim open retests
-* See which retest you need to complete and the time you have left to complete it
-* View all of your completed retests
+--
+ శీర్షిక: "రిటెస్టింగ్"
+ మార్గం: "/హ్యాకర్లు/retesting.html"
+ ఐడి: "హాకర్లు/రీటెస్టింగ్"
+ --
+ 
+ కార్యక్రమాలు బలహీనత్వ నివేదికలు మరియు మోహరపూరిత పరిష్కారాలపై పని చేస్తాయి కాబట్టి, వారి హాని సామర్ధ్యాలు వాస్తవానికి పరిష్కరించబడతాయని రుజువు అవసరం. వారి డేటా యొక్క రక్షణను సురక్షితం చేయడానికి ఒక దుర్బలత్వం పరిష్కరించబడిందో లేదో ధృవీకరించడానికి హ్యాకర్లు హ్యాకర్లు ఇవ్వడానికి కార్యక్రమాలు రీటెస్టింగ్ చేస్తాయి. మీరు చెల్లుబాటు అయ్యే దుర్బలత్వం నివేదికను సమర్పించినట్లయితే, పరిష్కారాలను ధృవీకరించడానికి దుర్బలత్వాన్ని తిరిగి ఆహ్వానించడానికి కార్యక్రమాలు మిమ్మల్ని ఆహ్వానించవచ్చు.
+ 
+ ఒక రెటెస్ట్ విజయవంతంగా పూర్తి చేసిన తర్వాత, మీరు ఒక అనుగ్రహాన్ని అలాగే +2 కీర్తిని పొందుతారు.
+ 
+ ఇది ఎలా పనిచేస్తుంది
+ 
+ మీరు ఒక నివేదిక కోసం చెల్లుబాటు అయ్యే దుర్బలత్వాన్ని సమర్పించినట్లయితే, ప్రోగ్రామ్ పరిష్కరించబడిందని నిర్ధారించుకోవడానికి మీరు దుర్బలత్వాన్ని రిటెస్ట్ చేయాలని అభ్యర్థించవచ్చు.
+ 
+ మీరు దుర్బలత్వాన్ని నిరాకరించడానికి ఆహ్వానించినట్లయితే, నివేదికను రిటైస్ట్ చేయడానికి మీ ఇమెయిల్లో మీరు నోటిఫికేషన్ను స్వీకరిస్తారు.
+ 
+ ![retest హ్యాకర్ ఇన్విటేషన్ ఇమెయిల్](./images/retest-invitation-email.png)
+ 
+ రిస్టెస్ట్లో పాల్గొనడానికి:
+ 
+ 1.  మీ నోటిఫికేషన్ ఇమెయిల్లో ** రిటెస్ట్ ** క్లిక్ చేయండి.
+ 2.  బలహీనత పరిష్కరించబడిందని తెలుసుకోండి.
+ 3.  నివేదిక దిగువన ** రిస్టెస్ట్ ఫైండింగ్స్ ** ఫారమ్లో మీ ఫలితాలను సమర్పించండి. ఈ రంగాలు ఈ విభాగాలను కలిగి ఉంటాయి:
+ * మీరు దుర్బలత్వం నివేదికను పునరుత్పత్తి చేయగలరా?
+ * మీరు దుర్బలత్వాన్ని ఎలా తిరిగి పొందుతారో మరియు మీ ధ్రువీకరణల యొక్క జోడింపులను ఎలా అప్లోడ్ చేస్తారనే దాని యొక్క చిన్న సారాంశంతో మాకు ఇవ్వండి.
+ 
+ ![retest రూపం](./చిత్రాలు/retest-findings-form.png)
+ 
+ 4.  క్లిక్ చేయండి ** సమర్పించండి **.
+ 
+ కార్యక్రమం ఆమోదించడం లేదా తిరస్కరించవచ్చు
